@@ -1,46 +1,100 @@
-def adsvadv
-
-    asdf
-    asdfasdf
-    asdf
-    eads
-    family
-
-end
-
-def adsvadv
-
-    asdf
-    asdfasdf
-    asdf
-    eads
-    family
-
-end
-def adsvadv
-
-    asdf
-    asdfasdf
-    asdf
-    eads
-    family
-
-end
-def adsvadv
-
-    asdf
-    asdfasdf
-    asdf
-    eads
-    family
-
-end
-def adsvadv
-
-    asdf
-    asdfasdf
-    asdf
-    eads
-    family
-
-end
+events = [
+  { "id" => (id = id.next),
+    "start_date" => "2023-03-27T00:00:00-05:00",
+    "title" => "Ruby Basics 1",
+    "end_date" => "",
+    "notes" => "Ruby Basics 1 notes",
+    "guests" => ["Paulo", "Andre"],
+    "calendar" => "web-dev" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-03-27T09:00:00-05:00",
+    "title" => "English Course",
+    "end_date" => "2023-03-27T10:30:00-05:00",
+    "notes" => "English notes",
+    "guests" => ["Stephanie"],
+    "calendar" => "english" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-03-28T00:00:00-05:00",
+    "title" => "Ruby Basics 2",
+    "end_date" => "",
+    "notes" => "Ruby Basics 2 notes",
+    "guests" => ["Paulo", "Andre"],
+    "calendar" => "web-dev" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-03-28T12:00:00-05:00",
+    "title" => "Soft Skills - Mindsets",
+    "end_date" => "2023-03-28T13:30:00-05:00",
+    "notes" => "Some extra notes",
+    "guests" => ["Mili"],
+    "calendar" => "soft-skills" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-03-29T00:00:00-05:00",
+    "title" => "Ruby Methods",
+    "end_date" => "",
+    "notes" => "Ruby Methods notes",
+    "guests" => ["Paulo", "Andre"],
+    "calendar" => "web-dev" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-03-29T09:00:00-05:00",
+    "title" => "English Course",
+    "end_date" => "2023-03-29T10:30:00-05:00",
+    "notes" => "English notes",
+    "guests" => ["Stephanie"],
+    "calendar" => "english" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-03-30T09:00:00-05:00",
+    "title" => "Summary Workshop",
+    "end_date" => "2023-03-30T13:30:00-05:00",
+    "notes" => "A lot of notes",
+    "guests" => ["Paulo", "Andre", "Diego"],
+    "calendar" => "web-dev" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-03-30T00:00:00-05:00",
+    "title" => "Extended Project",
+    "end_date" => "",
+    "notes" => "",
+    "guests" => [],
+    "calendar" => "web-dev" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-03-31T09:00:00-05:00",
+    "title" => "Extended Project",
+    "end_date" => "",
+    "notes" => "",
+    "guests" => [],
+    "calendar" => "web-dev" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-03-31T09:00:00-05:00",
+    "title" => "English Course",
+    "end_date" => "2023-03-31T10:30:00-05:00",
+    "notes" => "English notes",
+    "guests" => ["Stephanie"],
+    "calendar" => "english" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-04-01T10:00:00-05:00",
+    "title" => "Breakfast with my family",
+    "end_date" => "2023-04-01T11:00:00-05:00",
+    "notes" => "",
+    "guests" => [],
+    "calendar" => "default" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-04-01T15:00:00-05:00",
+    "title" => "Study",
+    "end_date" => "2023-04-01T20:00:00-05:00",
+    "notes" => "",
+    "guests" => [],
+    "calendar" => "default" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-04-06T00:00:00-05:00",
+    "title" => "Extended Project",
+    "end_date" => "",
+    "notes" => "",
+    "guests" => [],
+    "calendar" => "web-dev" },
+  { "id" => (id = id.next),
+    "start_date" => "2023-04-07T09:00:00-05:00",
+    "title" => "Extended Project",
+    "end_date" => "",
+    "notes" => "",
+    "guests" => [],
+    "calendar" => "web-dev" },
+]
