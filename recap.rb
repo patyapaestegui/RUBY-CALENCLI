@@ -88,24 +88,28 @@ array = [1,2,3,4,5]
 # end
 # p new_array
 # duplica los elementos del array [2,4,6,8,10]
-array = ["oli", "chio", "gaby", "paty"]
-new_array = array.map do |element|
-    
-  element.capitalize
+# 
 
-end
-p new_array
 ######################################
 ###### SUPER CHIKI ###################
 ######################################
 # hash: nombres - edades
-
+hash = {"paty"=>27, "Oli"=>27, "GAby"=> 32, "Chio"=>24}
+hash2 = {paty: 27}
 # imprime las llaves del hash
-
+p hash.keys
+array = hash.map do |key, value|
+     key.capitalize
+end
+p array
 # imprime los valores del hash
+p hash.values
 
 # ordena los elementos del hash segun la edad
-
+hash_ordered = hash.sort_by do |key, value|
+    -value
+end
+p hash_ordered
 #####################################
 ######## SUPER CHIKI PLUS 2.0 #######
 #####################################
