@@ -61,6 +61,11 @@
                             
                         end
 # imprime del 1 al 10, usando un until
+                    number = 1
+                    until number == 11
+                        puts number
+                        number += 1
+                    end
 
 ######################################
 ########## CHIKI NIVEL II ############
