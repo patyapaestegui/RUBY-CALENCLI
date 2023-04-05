@@ -94,29 +94,58 @@ array = [1,2,3,4,5]
 ###### SUPER CHIKI ###################
 ######################################
 # hash: nombres - edades
-hash = {"paty"=>27, "Oli"=>27, "GAby"=> 32, "Chio"=>24}
-hash2 = {paty: 27}
-# imprime las llaves del hash
-p hash.keys
-array = hash.map do |key, value|
-     key.capitalize
-end
-p array
-# imprime los valores del hash
-p hash.values
+# hash = {"paty"=>27, "Oli"=>27, "GAby"=> 32, "Chio"=>24}
+# hash2 = {paty: 27}
+# # imprime las llaves del hash
+# p hash.keys
+# array = hash.map do |key, value|
+#      key.capitalize
+# end
+# p array
+# # imprime los valores del hash
+# p hash.values
 
-# ordena los elementos del hash segun la edad
-hash_ordered = hash.sort_by do |key, value|
-    -value
-end
-p hash_ordered
+# # ordena los elementos del hash segun la edad
+# hash_ordered = hash.sort_by do |key, value|
+#     -value
+# end
+# p hash_ordered
 #####################################
 ######## SUPER CHIKI PLUS 2.0 #######
 #####################################
 # metodos
 # define un metodo que salude greetings
+# def greetings
+#      "hola chiki"
+# end
 
-# define un metodo que capitalice el nombre y salude capitalizacion("oliver")
+# p greetings
+# # define un metodo que capitalice el nombre y salude capitalizacion("oliver")
+# def capitalizacion(name)
+#     "hola #{name.capitalize}"
+# end
 
+# p capitalizacion("oliver")
 # define un metodo que te diga si el numero es capicua
 
+# def capicua(number)
+    
+#     if number == number.to_s.reverse.to_i
+#         puts "capicua"
+#     end
+# end
+
+# define un saludo con valor por defecto hola -> hola chiki , hola(paty) -> hola paty
+# def hola(name="chiki", city)
+#     # name = "paty"
+#     puts "hola #{name}, soy de la ciude de #{city}"
+# end
+# hola("lima", "tortugon")
+
+# define un saludo con valor por defecto hola -> hola chiki , hola(paty) -> hola paty
+def hola(name: "chiki", city:)
+    # name = "paty"
+    puts "hola #{name}, soy de la ciude de #{city}"
+end
+hash = {city: "lima", name:"tortugon"}  
+hola(**hash) # hola(city: "lima", name:"tortugon")
