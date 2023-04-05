@@ -29,7 +29,7 @@
                             when "verde"
                                 puts "Adelante"
                             when "amarillo"
-                                puts "espera"
+                                puts "esperaa"
                         end
 
 # if 0: rojo - 1:verde - 2:amarillo
