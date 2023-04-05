@@ -42,7 +42,16 @@
                         end
    
 # imprime del 1 al 10, usando un loop do - break
-                    
+
+                        number = 1
+                        loop do 
+                            # si el numero es < 11 imprima y se 
+                            puts number
+                            # auemente en usando
+                            number += 1
+                            break if number > 10
+                        end
+
 # imprime del 1 al 10, usando un while
 
 
