@@ -79,14 +79,22 @@ array = [1,2,3,4,5]
 #     puts element
 # end
 # duplica los elementos del array [2,4,6,8,10]
-new_array = []
+# new_array = []
 
-array.each do |element|
+# array.each do |element|
     
-    new_array << element * 2
-   
+#     new_array << element * 2
+
+# end
+# p new_array
+# duplica los elementos del array [2,4,6,8,10]
+array = ["oli", "chio", "gaby", "paty"]
+new_array = array.map do |element|
+    
+  element.capitalize
+
 end
- p new_array
+p new_array
 ######################################
 ###### SUPER CHIKI ###################
 ######################################
