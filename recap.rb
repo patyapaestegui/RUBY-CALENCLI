@@ -64,6 +64,7 @@
                     number = 1
                     until number == 11
                         puts number
+                        
                         number += 1
                     end
 
