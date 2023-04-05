@@ -18,6 +18,20 @@
 
 # case when - semáforo
 
+                        colors = ["rojo", "verde", "amarillo"]
+
+                        color = colors[rand(3)]
+
+                        case color
+
+                            when "rojo"
+                                puts "Tienes que detenerte"
+                            when "verde"
+                                puts "Adelante"
+                            when "amarillo"
+                                puts "espera"
+                        end
+
 # if 0: rojo - 1:verde - 2:amarillo
 
                      
