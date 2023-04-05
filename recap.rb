@@ -54,7 +54,12 @@
 
 # imprime del 1 al 10, usando un while
 
-
+                    number = 0
+                        while number <= 9
+                            number += 1
+                            puts number
+                            
+                        end
 # imprime del 1 al 10, usando un until
 
 ######################################
