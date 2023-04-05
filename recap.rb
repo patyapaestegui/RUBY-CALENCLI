@@ -75,11 +75,18 @@
 # array
 array = [1,2,3,4,5]
 # imprime los elementos del array
-array.each do |element|
-    puts element
-end
-# duplica los elementos del array
+# array.each do |element|
+#     puts element
+# end
+# duplica los elementos del array [2,4,6,8,10]
+new_array = []
 
+array.each do |element|
+    
+    new_array << element * 2
+   
+end
+ p new_array
 ######################################
 ###### SUPER CHIKI ###################
 ######################################
