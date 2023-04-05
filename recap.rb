@@ -8,7 +8,13 @@
 
 # if else conditional - si el numero de las cartas es mayor a 8
 
-                    
+                    number = rand(13) + 1
+
+                    if number > 8
+                        puts "tu carta es #{number}  y es mayor a 8"
+                    else 
+                        puts "tu carta es #{number}  y es menor a 8"
+                    end
 
 # case when - semáforo
 
