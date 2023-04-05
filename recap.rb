@@ -31,15 +31,15 @@
                             when "amarillo"
                                 puts "esperaa"
                         end
-
-# if 0: rojo - 1:verde - 2:amarillo
-
-                     
-#######################################
-########### CHIKI NIVEL I #############
-#######################################
-
+                        #######################################
+                        ########### CHIKI NIVEL I #############
+                        #######################################
+                        
 # imprime del 1 al 10, usando un each
+                        
+                        (1..10).each do |i|
+                            puts i
+                        end
    
 # imprime del 1 al 10, usando un loop do - break
                     
